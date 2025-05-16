@@ -7,21 +7,21 @@
 
 @font-face {
     font-family: 'Satoshi';
-    src: url('/assets/fonts/Satoshi-Regular.otf') format('opentype');
+    src: url('../fonts/Satoshi-Regular.otf') format('opentype');
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Famosa';
-    src: url('/assets/fonts/Famosa-RegularDemo.otf') format('opentype');
+    src: url('../fonts/Famosa-RegularDemo.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
 
-    background-image: url("/assets/img/sweetPatternImage.png") !important;
+    background-image: url("../img/sweetPatternImage.png") !important;
     width: 100%;
     background-size: contain;
     background-position: center;
@@ -117,7 +117,7 @@ body {
 
 /* Hero Section */
 .heroSection {
-    background-image: url('/assets/img/heroSectionImg.png');
+    background-image: url('../img/heroSectionImg.png');
     width: 100%;
     height: 100vh;
     background-size: cover;
