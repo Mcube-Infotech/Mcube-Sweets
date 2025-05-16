@@ -1,0 +1,395 @@
+* {
+    margin: 0%;
+    padding: 0;
+    scrollbar-width: thin;
+    scrollbar-color: #B99A54 #ffffff;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('/assets/fonts/Satoshi-Regular.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Famosa';
+    src: url('/assets/fonts/Famosa-RegularDemo.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+
+    background-image: url("/assets/img/sweetPatternImage.png") !important;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat-y;
+    overflow-x: hidden;
+
+    p,
+    ul,
+    li {
+        font-family: 'Satoshi', sans-serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Famosa', sans-serif;
+
+    }
+
+    p {
+        font-size: calc(0.9rem + 0.5vw);
+    }
+
+    h1 {
+        font-size: calc(3.3rem + 0vw);
+    }
+
+    h6 {
+        font-size: calc(1.2rem + 0.5vw);
+    }
+
+
+}
+
+.navbar {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    position: sticky !important;
+    top: 0;
+    z-index: 1050;
+    /* Ensures navbar stays above other elements */
+}
+
+@media (max-width: 424px) {
+    .navbar {
+        position: fixed !important;
+        top: 0 !important;
+        z-index: 1050 !important;
+        width: 100%;
+        background: white;
+    }
+
+
+}
+
+.offcanvas {
+    z-index: 10000;
+    height: 100vh !important;
+}
+
+/* Background change on scroll */
+.navbar.scrolled {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    font-weight: 400;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #B99A54;
+}
+
+.navbar-nav .nav-link.active {
+    color: #B99A54 !important;
+}
+
+/* Navbar Icons */
+.navIcon a:hover {
+    color: #B99A54;
+}
+
+
+/* Hero Section */
+.heroSection {
+    background-image: url('/assets/img/heroSectionImg.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5%;
+}
+
+/* Hero Content */
+.heroContent {
+    max-width: 40%;
+    text-align: end;
+}
+
+.heroContent h1 {
+    font-family: 'famosa', sans-serif;
+    color: white;
+    font-weight: 100;
+    font-size: 80px;
+}
+
+.heroContent p {
+    color: white;
+}
+
+.heroContent a {
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.heroContent a:hover {
+    border-color: #B99A54;
+    color: #B99A54;
+}
+
+/* About Section */
+.aboutInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+
+.aboutInfo div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.aboutHeader {
+    text-align: center;
+    justify-content: center;
+}
+
+.aboutUsBody img {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.aboutUsCard h3 {
+    font-weight: bold;
+}
+
+.aboutUsCard h4 {
+    font-weight: bold;
+}
+
+.certificationsImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.certification-img {
+    max-width: 100px;
+}
+
+/* Sweets Section */
+.featureItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 300;
+}
+
+/* .featureItem p {
+    font-size: 15px;
+} */
+
+.feature-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.productCard {
+    border-radius: 10px;
+}
+
+.productCard h5 {
+    font-weight: bold;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #8b6f3f;
+    font-weight: bold;
+}
+
+.btnCart {
+    background-color: #c2a05d;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    width: 200px;
+    border-radius: 3px;
+    font-size: 1rem;
+    background-color: #a88545;
+}
+
+.btnCart:hover {
+    background-color: #a07d4a;
+}
+
+.form-select {
+    border: 2px solid #b8945e !important;
+    border-radius: 5px;
+}
+
+.form-select option {
+    background-color: #b8945e;
+    color: white;
+}
+
+.input-group .btn-sm,
+.input-group input {
+    border: 1px solid #b8945e;
+}
+
+.input-group .btn-sm:hover {
+    background-color: #b8945e;
+    color: white;
+}
+
+
+/* ContactUs Section */
+.contactUsBody input {
+    background: transparent;
+    border-color: #b8945e;
+}
+
+.contactUsBody textarea {
+    background: transparent;
+    border-color: #b8945e;
+}
+
+.btnMessage {
+    background-color: #c2a05d;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    width: 200px;
+    border-radius: 3px;
+    font-size: 1rem;
+    background-color: #a88545;
+}
+
+.btnMessage:hover {
+    background-color: #a07d4a;
+}
+
+/* Footer Section */
+.footerSection {
+    display: flex;
+    flex-direction: row;
+    column-gap: 160px;
+    justify-content: center;
+}
+
+.footerOne p {
+    max-width: 300px;
+}
+
+.socialIcons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.socialIcons a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #b8945e;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.footerLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footerLinks a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footerLinks a:hover {
+    color: #b8945e;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 35px;
+}
+
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #b8945e;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.border-top {
+    border-top: 2px solid #8b6f3f;
+}
+
+.goTopButton {
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    z-index: 1000;
+}
+
+.goTopButton a {
+    text-decoration: none;
+    color: #b8945e;
+    transition: transform 0.3s ease-in-out;
+}
+
+.goTopButton i {
+    font-size: 30px !important;
+}
+
+.goTopButton a:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,370 @@
+/* max-width 1024px */
+@media (max-width:1024px) {
+    .heroContent h1 {
+        font-size: 45px;
+    }
+
+    .heroContent p {
+        font-size: inherit;
+    }
+
+    .heroContent a {
+        border-radius: 5px;
+        color: white;
+        border: 1px solid white;
+        padding: 8px 13px;
+    }
+
+    .sweetsCard img {
+        max-width: 600px !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    .offcanvas-body {
+        font-size: 13px;
+        font-weight: 600;
+        justify-content: center;
+    }
+
+    .offcanvas-header {
+        background: linear-gradient(to bottom, #e2d1b6, #FBFEFF);
+
+    }
+}
+
+/* max-width 768px */
+@media (max-width:768px) {
+    .heroSection {
+        background-position: center;
+        height: 59vh;
+    }
+
+    .navIcon {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .heroContent h1 {
+        font-size: 45px;
+    }
+
+    .heroContent p {
+        font-size: inherit;
+    }
+
+
+    p {
+        font-size: calc(0.8rem + 0.5vw) !important;
+    }
+
+    .certificationsImg {
+        gap: 47px;
+        padding: 20px;
+    }
+
+    .aboutUsCard .row {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .aboutUsCard .row.cardTwo {
+        flex-direction: column;
+    }
+
+    .aboutUsCard img {
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .sweetsImage {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+
+    .footerSection {
+        display: flex;
+    }
+
+    .sweetsCard,
+    .savoriesCard,
+    .bakesCard {
+        max-width: 50% !important;
+        justify-content: center !important;
+        margin: auto;
+    }
+   
+    .productCard {
+       padding-left: 40px !important;
+    }
+    .footerSection {
+        column-gap: normal;
+    }
+
+    .footerSection {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        text-align: left;
+        gap: 50px;
+    }
+
+    .footerOne,
+    .footerLinks,
+    .contact-info {
+        flex: 1;
+        min-width: 250px;
+    }
+
+    .footerOne p {
+        max-width: 300px;
+    }
+
+    .socialIcons {
+        justify-content: flex-start;
+    }
+
+    .footerLinks {
+        align-items: flex-start;
+    }
+
+    .contact-info {
+        align-items: flex-start;
+    }
+}
+
+/* Max Width 425px */
+
+@media (max-width: 425px) {
+    html {
+        overflow-x: hidden !important;
+    }
+
+    .navIcon {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .heroSection {
+        background-size: auto 97% !important;
+        background-position: top;
+    }
+
+    .heroContent {
+        max-width: 60% !important;
+        text-align: end;
+    }
+
+    .heroContent h1 {
+        font-size: 33px !important;
+    }
+
+    .heroContent p {
+        font-size: 10px !important;
+    }
+
+    .heroContent a {
+        width: 119px;
+        border-radius: 5px;
+        color: white;
+        border: 1px solid white;
+        padding: 3px 3px;
+    }
+
+    .aboutHeader h1 {
+        font-size: 28px !important;
+    }
+
+    .aboutHeader p {
+        font-size: 12px !important;
+        max-width: 96% !important;
+        margin: auto;
+        text-align: center !important;
+    }
+
+    .aboutInfo {
+        margin: 0 !important;
+    }
+
+    .aboutInfo h6 {
+        font-size: calc(1rem + 0.5vw);
+    }
+
+    .aboutInfo div {
+        display: block !important;
+    }
+
+
+    .aboutUsCard h3 {
+        font-size: 1.5rem;
+    }
+
+    .aboutUsCard h4 {
+        font-size: 1.2rem;
+    }
+
+    .aboutUsCard p {
+        font-size: 0.9rem;
+    }
+
+    .aboutUsCard img {
+        max-width: 90%;
+    }
+
+    .aboutUsFooter h1 {
+        text-align: center !important;
+        font-size: 37px !important;
+    }
+
+    .sweetsCard,
+    .savoriesCard,
+    .bakesCard {
+        max-width: 100% !important;
+        justify-content: center !important;
+    }
+
+    .sweetsHeader,
+    .savoriesHeader,
+    .bakesHeader {
+        text-align: center !important;
+        font-size: 37px !important;
+    }
+
+    .certificationsImg img {
+        width: 80% !important;
+        justify-content: center;
+        padding: 9px;
+        height: 65px;
+    }
+
+    .featureItem p {
+        font-size: 10px !important;
+    }
+
+    .footerSection {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 30px;
+        column-gap: 0;
+    }
+
+    .footerOne p {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .socialIcons {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .socialIcons a {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .footerLinks {
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .footerLinks a {
+        font-size: 14px;
+    }
+
+    .contactInfo h4 {
+        text-align: center;
+    }
+
+    .contact-info {
+        text-align: center !important;
+        gap: 15px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .icon-circle {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+}
+
+
+
+@media (max-width: 375px) {
+    html {
+        overflow-x: hidden !important;
+    }
+
+    .navIcon {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .aboutHeader h1 {
+        font-size: 28px !important;
+    }
+
+    .aboutHeader p {
+        font-size: 12px !important;
+        max-width: 96% !important;
+        margin: auto;
+        text-align: center !important;
+    }
+
+    .aboutUsFooter h1 {
+        text-align: center !important;
+        font-size: 37px !important;
+    }
+
+    .sweetsSection,
+    .savoriesSection,
+    .bakesSection {
+        width: 100% !important;
+        margin: auto;
+    }
+
+    .sweetsHeader,
+    .savoriesHeader,
+    .bakesHeader {
+        text-align: center !important;
+        font-size: 37px !important;
+    }
+
+    .certificationsImg img {
+        width: 80% !important;
+        justify-content: center;
+        padding: 8px;
+        height: 50px;
+        gap: 20px !important;
+    }
+
+    .socialIcons a {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+
+    .footerLinks a {
+        font-size: 13px;
+    }
+
+    .contact-info {
+        font-size: 13px;
+        gap: 10px;
+    }
+
+    .icon-circle {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
+}
